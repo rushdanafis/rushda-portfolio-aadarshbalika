@@ -152,4 +152,26 @@ footer{
 .socialIcon{
     margin: 0;
 }
+#button,#blogButton{
+    cursor: pointer;
+    font-size: 14px;
+    
+    border-radius: 500px;
+   
+    border: 1px solid var(--text-color);
+    letter-spacing: 2px;
+    min-width: 160px;
+   
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color:var(--text-color);
+   
+    background-color: transparent;
+    height: 48px;
+    margin-bottom: 10px;
+    
+}
+
 
