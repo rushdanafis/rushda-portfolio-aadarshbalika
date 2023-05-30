@@ -1,15 +1,155 @@
-:root{
-    --main-color: #2c786c;
-    --text-color: #faf5e4;
-    --background-color:#012727;
-    --background-color-second:#022929
-}
-body{
-    background-color: var(--background-color);
-    color:var(--text-color);
+:root {
+  --main-color: #2c786c;
+  --text-color: #faf5e4;
+  --background-color: #0f1b1b;
+  --background-color-second: #1f4141;
+  --background-color-third: #2f6969;
 }
 
- 
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
 
+#navbar {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 90px;
+}
+#navbar li {
+  list-style: none;
+  float: right;
+  padding: 20px;
+  margin-top: 40px;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+#navbar ul {
+  overflow: auto;
+}
+#navbar li a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding-bottom: 5px;
+}
 
+#navbar .brandName {
+  float: left;
+  padding-top: 13px;
+  padding-left: 13px;
+  font-size: larger;
+  margin: 0;
+  letter-spacing: 0.1rem;
+}
+#image {
+  width: 6 0%;
+  margin-bottom: 0px;
+}
+#span {
+  color: var(--main-color);
+}
+div {
+  margin-block-end: 50px;
+  margin-block-start: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+div p {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+#footer {
+  background-color: var(--main-color);
+  height: 150px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+h3 {
+  padding-block: 30px;
+}
+#firstDiv {
+  background-color: var(--background-color-second);
+  border-radius: 30px;
+  line-height: 3rem;
+}
+#thirdDiv {
+  background-color: var(--background-color-second);
+  border-radius: 30px;
+  line-height: 3rem;
+}
+h1 {
+  font-size: xx-large;
+}
+#firstHeading {
+  font-weight: bolder;
+  font-size: 1.5cm;
+}
+h2 h3 {
+  text-underline-position: under;
+  font-size: 0.9cm;
+}
+#secondDiv {
+  background-color: var(--background-color-third);
+  border-radius: 30px;
+  line-height: 3rem;
+}
+
+#fourthDiv {
+  background-color: var(--background-color-third);
+  border-radius: 30px;
+  line-height: 3rem;
+}
+ footer {
+    background-color: var(--main-color);
+   
+
+}
+h4{
+    font-size: 0.7cm;
+    padding: 20px;
+    padding-top: 20px;
+
+}
+.socialIcon{
+   display: flex;
+   justify-content: center;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     
+    
+}
+.socialIcon a i{
+    font-size: 2rem;
+    color: var(--background-color);
+}
+footer{
+    margin-bottom: 50px;
+    
+    border-radius: 25px;
+   
+}
+.footerContainer{
+    height: 4cm;
+}
+
+.socialIcon{
+    margin: 0;
+}
+
