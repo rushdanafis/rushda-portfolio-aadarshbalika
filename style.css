@@ -167,13 +167,34 @@ footer {
   height: 48px;
   margin-bottom: 10px;
 }
-#button a{
-    color: var(--text-color);
-   
-
+#button a {
+  color: var(--text-color);
 }
-#blogButton a{
-    color: var(--text-color);
-   
+#blogButton a {
+  color: var(--text-color);
+}
+.mainProjectHeading {
+  padding-top: 40px;
+}
 
+.readmelink a {
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+.programmingMovies{
+    border: 2px solid var(--text-color);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    line-height: 0.7cm;
+}
+.programmingMovies .headingForBlogOne{
+    padding-bottom: 40px;
+}
+.moviesParagraph p{
+    line-height: 0.7cm;
 }
