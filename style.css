@@ -167,3 +167,13 @@ footer {
   height: 48px;
   margin-bottom: 10px;
 }
+#button a{
+    color: var(--text-color);
+   
+
+}
+#blogButton a{
+    color: var(--text-color);
+   
+
+}
