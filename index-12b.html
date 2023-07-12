@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle quiz</title>
+  </head>
+  <body>
+    <h1>Triangle Quiz</h1>
+    <form class="form-data">
+      <div class="question-container">
+        <p>1.A triangle with all angles less than 90 degrees is called a(n):</p>
+        <label>
+          <input
+            type="radio"
+            name="question1"
+            value="Equilateral triangle"
+          />Equilateral triangle
+        </label>
+
+        <label>
+          <input type="radio" name="question1" value="Obtuse triangle" />
+          Obtuse triangle
+        </label>
+
+        <label>
+          <input type="radio" name="question1" value="Acute triangle" />
+          Acute triangle
+        </label>
+
+        <label>
+          <input
+            type="radio"
+            name="question1"
+            value="Isosceles triangle"
+          />Isosceles triangle
+        </label>
+      </div>
+
+      <div class="question-container">
+        <p>2.A triangle with three sides of equal length is called:</p>
+
+        <label>
+          <input
+            type="radio"
+            name="question2"
+            value="Scalene triangle"
+          />Scalene triangle
+        </label>
+
+        <label>
+          <input type="radio" name="question2" value="Isosceles triangle" />
+          Isosceles triangle
+        </label>
+
+        <label>
+          <input type="radio" name="question2" value="Equilateral triangle" />
+          Equilateral triangle
+        </label>
+
+        <label>
+          <input type="radio" name="question2" value="Right triangle" />Right
+          triangle
+        </label>
+      </div>
+
+      <div class="question-container">
+        <p>3.What is the sum of a triangle's interior angles?</p>
+
+        <label> <input type="radio" name="question3" value="90°" />90° </label>
+
+        <label>
+          <input type="radio" name="question3" value="180°" />
+          180°
+        </label>
+
+        <label>
+          <input type="radio" name="question3" value="270°" />
+          270°
+        </label>
+
+        <label>
+          <input type="radio" name="question3" value="360°" />360°
+        </label>
+      </div>
+
+      <div class="question-container">
+        <p>4.In an equilateral triangle, all three sides are?</p>
+
+        <label>
+          <input
+            type="radio"
+            name="question4"
+            value="Congruent"
+          />Congruent</label
+        >
+
+        <label>
+          <input type="radio" name="question4" value="Parallel" />
+          Parallel
+        </label>
+
+        <label>
+          <input type="radio" name="question4" value="Perpendicular" />
+          Perpendicular
+        </label>
+
+        <label>
+          <input type="radio" name="question4" value="None of the above" />None
+          of the above
+        </label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          5.The line segment connecting a vertex of a triangle to the midpoint
+          of the opposite side is called the:
+        </p>
+
+        <label>
+          <input
+            type="radio"
+            name="question5"
+            value="Altitude"
+          />Altitude</label
+        >
+
+        <label>
+          <input type="radio" name="question5" value="Perpendicular bisector" />
+          Perpendicular bisector
+        </label>
+
+        <label>
+          <input type="radio" name="question5" value="Median" />
+          Median
+        </label>
+
+        <label>
+          <input type="radio" name="question5" value=" Angle bisector" /> Angle
+          bisector
+        </label>
+      </div>
+    </form>
+
+    <div class="display-score"></div>
+
+    <button id="submit-btn">Submit Answers</button>
+
+    <script src="triangle-b-app.js"></script>
+  </body>
+</html>
