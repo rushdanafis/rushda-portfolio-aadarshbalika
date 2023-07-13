@@ -7,5 +7,5 @@ checkBtn.addEventListener("click", function calculateValues() {
   let hypotenuse = Math.sqrt(
     Math.pow(Number(firstSide.value), 2) + Math.pow(Number(secondSide.value), 2)
   );
-  outPutMessege.innerText = ` The hypotenuse is ${hypotenuse}`;
+  outPutMessege.innerText = ` The length of hypotenuse is ${hypotenuse}cm`;
 });
