@@ -28,6 +28,6 @@ checkButton.addEventListener("click", function calculation() {
   } else if (SP < CP) {
   } else {
     displayMessege.style.display = "block";
-    displayMessege.innerText = "Better luck next time";
+    displayMessege.innerText = "Resulted in a neutral outcome.";
   }
 });
