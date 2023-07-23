@@ -132,7 +132,7 @@ h4 {
 }
 .socialIcon a i {
   font-size: 2rem;
-  color: var(--background-color);
+  color: var(--background);
 }
 footer {
   margin-bottom: 50px;
